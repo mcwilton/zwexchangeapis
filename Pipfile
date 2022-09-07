@@ -1,0 +1,31 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+asgiref = "*"
+beautifulsoup4 = "*"
+dj-database-url = "*"
+django = "*"
+django-heroku = "*"
+djangorestframework = "*"
+gunicorn = "*"
+html5lib = "*"
+lxml = "*"
+numpy = "*"
+pandas = "*"
+psycopg2 = "*"
+python-dateutil = "*"
+python-dotenv = "*"
+pytz = "*"
+six = "*"
+soupsieve = "*"
+sqlparse = "*"
+webencodings = "*"
+whitenoise = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"

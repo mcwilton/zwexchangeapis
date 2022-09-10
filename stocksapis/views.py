@@ -21,7 +21,9 @@ schema_view = get_swagger_view(title='Pastebin API')
 def api_overview(request):
 
     api_urls = {
-        'List': '/company-list/',
+        'Companies': 'http://127.0.0.1:8000/companies/',
+        'Redoc Format':'http://127.0.0.1:8000/redoc/',
+        'Swagger Format': 'http://127.0.0.1:8000/swagger/'
     }
 
     return Response(api_urls)

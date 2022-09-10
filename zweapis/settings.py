@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "rest_framework",
     "stocksapis",
+    "drf_yasg",
 ]
 
 MIDDLEWARE = [
@@ -164,4 +165,10 @@ CACHES = {
 
 REST_FRAMEWORK = {
     'COERCE_DECIMAL_TO_STRING':False
+}
+
+SWAGGER_SETTINGS = {
+    
+    'VALIDATOR_URL': 'http://localhost:8000',
+    
 }
